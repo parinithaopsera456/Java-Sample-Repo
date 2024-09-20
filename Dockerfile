@@ -1,5 +1,3 @@
-# # Use the official OpenJDK image
-# FROM openjdk:11
 # Stage 1: Build the application
 FROM maven:3.8.6-openjdk-11 AS build
 WORKDIR /app
